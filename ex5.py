@@ -1,6 +1,11 @@
-num = int(input('fala o numerinho '))
-u = num // 1 % 10
-d = num // 10 % 10
-c = num // 100 % 10
-m = num // 1000 % 10
-print('{}, {}, {}, {}, {}'.format(num, u, d, c, m))
+a = ('zero', 'um', 'dois')
+b = (1, 2, 3, 3)
+n = int(input('numero'))
+print(a[n])
+print(a[n:])
+print(sorted(a))
+print(a.index("um"))
+print(b.count(3))
+print(max(b))
+for x in b:
+    print(x, end = ' ')
